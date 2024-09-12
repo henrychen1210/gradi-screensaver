@@ -2,7 +2,7 @@
 
 Idea from ([https://gradiyent.netlify.app/])
 
-<video width="320" height="240" controls>
-  <source src="https://bucket-my-site.s3.amazonaws.com/works/gradi.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/13820a93-c644-4c1b-a1df-2d3ac4ab9497
+
