@@ -17,7 +17,7 @@ class GradiScreenSaverView: ScreenSaverView {
 
     override init?(frame: CGRect, isPreview: Bool) {
         super.init(frame: frame, isPreview: isPreview)
-        self.animationTimeInterval = 1 / 60.0 // 30 FPS
+        self.animationTimeInterval = 1 / 30.0 // 30 FPS
     }
     
     required init?(coder: NSCoder) {

@@ -7,81 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA3ED0AA2C79103C00DC67E7 /* Gradi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0A92C79103C00DC67E7 /* Gradi.swift */; };
-		BA3ED0B52C79139A00DC67E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0B42C79139A00DC67E7 /* AppDelegate.swift */; };
-		BA3ED0B72C79139A00DC67E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0B62C79139A00DC67E7 /* ViewController.swift */; };
-		BA3ED0B92C79139C00DC67E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3ED0B82C79139C00DC67E7 /* Assets.xcassets */; };
-		BA3ED0BC2C79139C00DC67E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA3ED0BB2C79139C00DC67E7 /* Base */; };
-		BA3ED0C72C79139D00DC67E7 /* ScreensaverHostAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0C62C79139D00DC67E7 /* ScreensaverHostAppTests.swift */; };
-		BA3ED0D12C79139D00DC67E7 /* ScreensaverHostAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0D02C79139D00DC67E7 /* ScreensaverHostAppUITests.swift */; };
-		BA3ED0D32C79139D00DC67E7 /* ScreensaverHostAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0D22C79139D00DC67E7 /* ScreensaverHostAppUITestsLaunchTests.swift */; };
-		BA3ED0DD2C7913D800DC67E7 /* Gradi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0A92C79103C00DC67E7 /* Gradi.swift */; };
-		BA3ED0DF2C79144600DC67E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED0B62C79139A00DC67E7 /* ViewController.swift */; };
-		BA3ED0E12C7917DB00DC67E7 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3ED0E02C7917DB00DC67E7 /* thumbnail.png */; };
-		BA3ED0E32C7917E200DC67E7 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3ED0E22C7917E200DC67E7 /* thumbnail@2x.png */; };
+		BA98A1042C94D3D4006BCF6F /* gradi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98A1032C94D3D4006BCF6F /* gradi.swift */; };
+		BA98A1102C94D649006BCF6F /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98A10E2C94D63E006BCF6F /* thumbnail.png */; };
+		BA98A1112C94D64C006BCF6F /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98A10F2C94D640006BCF6F /* thumbnail@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BA3ED0C32C79139D00DC67E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA3ED0932C79101000DC67E7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA3ED0B12C79139A00DC67E7;
-			remoteInfo = ScreensaverHostApp;
-		};
-		BA3ED0CD2C79139D00DC67E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA3ED0932C79101000DC67E7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA3ED0B12C79139A00DC67E7;
-			remoteInfo = ScreensaverHostApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BA3ED09C2C79101000DC67E7 /* Gradi.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gradi.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3ED0A82C79103C00DC67E7 /* Gradi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gradi-Bridging-Header.h"; sourceTree = "<group>"; };
-		BA3ED0A92C79103C00DC67E7 /* Gradi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradi.swift; sourceTree = "<group>"; };
-		BA3ED0AD2C7910A400DC67E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		BA3ED0B22C79139A00DC67E7 /* ScreensaverHostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreensaverHostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3ED0B42C79139A00DC67E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA3ED0B62C79139A00DC67E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA3ED0B82C79139C00DC67E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA3ED0BB2C79139C00DC67E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA3ED0BD2C79139C00DC67E7 /* ScreensaverHostApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreensaverHostApp.entitlements; sourceTree = "<group>"; };
-		BA3ED0C22C79139D00DC67E7 /* ScreensaverHostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreensaverHostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3ED0C62C79139D00DC67E7 /* ScreensaverHostAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensaverHostAppTests.swift; sourceTree = "<group>"; };
-		BA3ED0CC2C79139D00DC67E7 /* ScreensaverHostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreensaverHostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3ED0D02C79139D00DC67E7 /* ScreensaverHostAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensaverHostAppUITests.swift; sourceTree = "<group>"; };
-		BA3ED0D22C79139D00DC67E7 /* ScreensaverHostAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensaverHostAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BA3ED0E02C7917DB00DC67E7 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = Gradi/thumbnail.png; sourceTree = "<group>"; };
-		BA3ED0E22C7917E200DC67E7 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "Gradi/thumbnail@2x.png"; sourceTree = "<group>"; };
-		BA3ED0E42C79182900DC67E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA98A0F62C94D3C5006BCF6F /* gradi.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradi.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA98A1022C94D3D4006BCF6F /* gradi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gradi-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA98A1032C94D3D4006BCF6F /* gradi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradi.swift; sourceTree = "<group>"; };
+		BA98A10E2C94D63E006BCF6F /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		BA98A10F2C94D640006BCF6F /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA3ED0992C79101000DC67E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0AF2C79139A00DC67E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0BF2C79139D00DC67E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0C92C79139D00DC67E7 /* Frameworks */ = {
+		BA98A0F32C94D3C5006BCF6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,74 +31,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA3ED0922C79101000DC67E7 = {
+		BA98A0EC2C94D3C5006BCF6F = {
 			isa = PBXGroup;
 			children = (
-				BA3ED0E02C7917DB00DC67E7 /* thumbnail.png */,
-				BA3ED0E22C7917E200DC67E7 /* thumbnail@2x.png */,
-				BA3ED09E2C79101000DC67E7 /* Gradi */,
-				BA3ED0B32C79139A00DC67E7 /* ScreensaverHostApp */,
-				BA3ED0C52C79139D00DC67E7 /* ScreensaverHostAppTests */,
-				BA3ED0CF2C79139D00DC67E7 /* ScreensaverHostAppUITests */,
-				BA3ED09D2C79101000DC67E7 /* Products */,
+				BA98A10F2C94D640006BCF6F /* thumbnail@2x.png */,
+				BA98A10E2C94D63E006BCF6F /* thumbnail.png */,
+				BA98A0F82C94D3C5006BCF6F /* gradi */,
+				BA98A0F72C94D3C5006BCF6F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BA3ED09D2C79101000DC67E7 /* Products */ = {
+		BA98A0F72C94D3C5006BCF6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA3ED09C2C79101000DC67E7 /* Gradi.saver */,
-				BA3ED0B22C79139A00DC67E7 /* ScreensaverHostApp.app */,
-				BA3ED0C22C79139D00DC67E7 /* ScreensaverHostAppTests.xctest */,
-				BA3ED0CC2C79139D00DC67E7 /* ScreensaverHostAppUITests.xctest */,
+				BA98A0F62C94D3C5006BCF6F /* gradi.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA3ED09E2C79101000DC67E7 /* Gradi */ = {
+		BA98A0F82C94D3C5006BCF6F /* gradi */ = {
 			isa = PBXGroup;
 			children = (
-				BA3ED0AD2C7910A400DC67E7 /* Info.plist */,
-				BA3ED0A92C79103C00DC67E7 /* Gradi.swift */,
-				BA3ED0A82C79103C00DC67E7 /* Gradi-Bridging-Header.h */,
+				BA98A1032C94D3D4006BCF6F /* gradi.swift */,
+				BA98A1022C94D3D4006BCF6F /* gradi-Bridging-Header.h */,
 			);
-			path = Gradi;
-			sourceTree = "<group>";
-		};
-		BA3ED0B32C79139A00DC67E7 /* ScreensaverHostApp */ = {
-			isa = PBXGroup;
-			children = (
-				BA3ED0E42C79182900DC67E7 /* Info.plist */,
-				BA3ED0B42C79139A00DC67E7 /* AppDelegate.swift */,
-				BA3ED0B62C79139A00DC67E7 /* ViewController.swift */,
-				BA3ED0B82C79139C00DC67E7 /* Assets.xcassets */,
-				BA3ED0BA2C79139C00DC67E7 /* Main.storyboard */,
-				BA3ED0BD2C79139C00DC67E7 /* ScreensaverHostApp.entitlements */,
-			);
-			path = ScreensaverHostApp;
-			sourceTree = "<group>";
-		};
-		BA3ED0C52C79139D00DC67E7 /* ScreensaverHostAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				BA3ED0C62C79139D00DC67E7 /* ScreensaverHostAppTests.swift */,
-			);
-			path = ScreensaverHostAppTests;
-			sourceTree = "<group>";
-		};
-		BA3ED0CF2C79139D00DC67E7 /* ScreensaverHostAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BA3ED0D02C79139D00DC67E7 /* ScreensaverHostAppUITests.swift */,
-				BA3ED0D22C79139D00DC67E7 /* ScreensaverHostAppUITestsLaunchTests.swift */,
-			);
-			path = ScreensaverHostAppUITests;
+			path = gradi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BA3ED0972C79101000DC67E7 /* Headers */ = {
+		BA98A0F12C94D3C5006BCF6F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,105 +71,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BA3ED09B2C79101000DC67E7 /* Gradi */ = {
+		BA98A0F52C94D3C5006BCF6F /* gradi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA3ED0A52C79101000DC67E7 /* Build configuration list for PBXNativeTarget "Gradi" */;
+			buildConfigurationList = BA98A0FF2C94D3C5006BCF6F /* Build configuration list for PBXNativeTarget "gradi" */;
 			buildPhases = (
-				BA3ED0972C79101000DC67E7 /* Headers */,
-				BA3ED0982C79101000DC67E7 /* Sources */,
-				BA3ED0992C79101000DC67E7 /* Frameworks */,
-				BA3ED09A2C79101000DC67E7 /* Resources */,
+				BA98A0F12C94D3C5006BCF6F /* Headers */,
+				BA98A0F22C94D3C5006BCF6F /* Sources */,
+				BA98A0F32C94D3C5006BCF6F /* Frameworks */,
+				BA98A0F42C94D3C5006BCF6F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Gradi;
-			productName = Gradi;
-			productReference = BA3ED09C2C79101000DC67E7 /* Gradi.saver */;
+			name = gradi;
+			productName = gradi;
+			productReference = BA98A0F62C94D3C5006BCF6F /* gradi.saver */;
 			productType = "com.apple.product-type.bundle";
-		};
-		BA3ED0B12C79139A00DC67E7 /* ScreensaverHostApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA3ED0D42C79139D00DC67E7 /* Build configuration list for PBXNativeTarget "ScreensaverHostApp" */;
-			buildPhases = (
-				BA3ED0AE2C79139A00DC67E7 /* Sources */,
-				BA3ED0AF2C79139A00DC67E7 /* Frameworks */,
-				BA3ED0B02C79139A00DC67E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ScreensaverHostApp;
-			productName = ScreensaverHostApp;
-			productReference = BA3ED0B22C79139A00DC67E7 /* ScreensaverHostApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		BA3ED0C12C79139D00DC67E7 /* ScreensaverHostAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA3ED0D72C79139D00DC67E7 /* Build configuration list for PBXNativeTarget "ScreensaverHostAppTests" */;
-			buildPhases = (
-				BA3ED0BE2C79139D00DC67E7 /* Sources */,
-				BA3ED0BF2C79139D00DC67E7 /* Frameworks */,
-				BA3ED0C02C79139D00DC67E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA3ED0C42C79139D00DC67E7 /* PBXTargetDependency */,
-			);
-			name = ScreensaverHostAppTests;
-			productName = ScreensaverHostAppTests;
-			productReference = BA3ED0C22C79139D00DC67E7 /* ScreensaverHostAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BA3ED0CB2C79139D00DC67E7 /* ScreensaverHostAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA3ED0DA2C79139D00DC67E7 /* Build configuration list for PBXNativeTarget "ScreensaverHostAppUITests" */;
-			buildPhases = (
-				BA3ED0C82C79139D00DC67E7 /* Sources */,
-				BA3ED0C92C79139D00DC67E7 /* Frameworks */,
-				BA3ED0CA2C79139D00DC67E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA3ED0CE2C79139D00DC67E7 /* PBXTargetDependency */,
-			);
-			name = ScreensaverHostAppUITests;
-			productName = ScreensaverHostAppUITests;
-			productReference = BA3ED0CC2C79139D00DC67E7 /* ScreensaverHostAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BA3ED0932C79101000DC67E7 /* Project object */ = {
+		BA98A0ED2C94D3C5006BCF6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					BA3ED09B2C79101000DC67E7 = {
+					BA98A0F52C94D3C5006BCF6F = {
 						CreatedOnToolsVersion = 15.4;
 						LastSwiftMigration = 1540;
 					};
-					BA3ED0B12C79139A00DC67E7 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					BA3ED0C12C79139D00DC67E7 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = BA3ED0B12C79139A00DC67E7;
-					};
-					BA3ED0CB2C79139D00DC67E7 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = BA3ED0B12C79139A00DC67E7;
-					};
 				};
 			};
-			buildConfigurationList = BA3ED0962C79101000DC67E7 /* Build configuration list for PBXProject "Gradi" */;
+			buildConfigurationList = BA98A0F02C94D3C5006BCF6F /* Build configuration list for PBXProject "gradi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,119 +112,41 @@
 				en,
 				Base,
 			);
-			mainGroup = BA3ED0922C79101000DC67E7;
-			productRefGroup = BA3ED09D2C79101000DC67E7 /* Products */;
+			mainGroup = BA98A0EC2C94D3C5006BCF6F;
+			productRefGroup = BA98A0F72C94D3C5006BCF6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA3ED09B2C79101000DC67E7 /* Gradi */,
-				BA3ED0B12C79139A00DC67E7 /* ScreensaverHostApp */,
-				BA3ED0C12C79139D00DC67E7 /* ScreensaverHostAppTests */,
-				BA3ED0CB2C79139D00DC67E7 /* ScreensaverHostAppUITests */,
+				BA98A0F52C94D3C5006BCF6F /* gradi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA3ED09A2C79101000DC67E7 /* Resources */ = {
+		BA98A0F42C94D3C5006BCF6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3ED0E12C7917DB00DC67E7 /* thumbnail.png in Resources */,
-				BA3ED0E32C7917E200DC67E7 /* thumbnail@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0B02C79139A00DC67E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA3ED0B92C79139C00DC67E7 /* Assets.xcassets in Resources */,
-				BA3ED0BC2C79139C00DC67E7 /* Base in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0C02C79139D00DC67E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0CA2C79139D00DC67E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BA98A1102C94D649006BCF6F /* thumbnail.png in Resources */,
+				BA98A1112C94D64C006BCF6F /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA3ED0982C79101000DC67E7 /* Sources */ = {
+		BA98A0F22C94D3C5006BCF6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3ED0DF2C79144600DC67E7 /* ViewController.swift in Sources */,
-				BA3ED0AA2C79103C00DC67E7 /* Gradi.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0AE2C79139A00DC67E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA3ED0B72C79139A00DC67E7 /* ViewController.swift in Sources */,
-				BA3ED0B52C79139A00DC67E7 /* AppDelegate.swift in Sources */,
-				BA3ED0DD2C7913D800DC67E7 /* Gradi.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0BE2C79139D00DC67E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA3ED0C72C79139D00DC67E7 /* ScreensaverHostAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3ED0C82C79139D00DC67E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA3ED0D32C79139D00DC67E7 /* ScreensaverHostAppUITestsLaunchTests.swift in Sources */,
-				BA3ED0D12C79139D00DC67E7 /* ScreensaverHostAppUITests.swift in Sources */,
+				BA98A1042C94D3D4006BCF6F /* gradi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BA3ED0C42C79139D00DC67E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA3ED0B12C79139A00DC67E7 /* ScreensaverHostApp */;
-			targetProxy = BA3ED0C32C79139D00DC67E7 /* PBXContainerItemProxy */;
-		};
-		BA3ED0CE2C79139D00DC67E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA3ED0B12C79139A00DC67E7 /* ScreensaverHostApp */;
-			targetProxy = BA3ED0CD2C79139D00DC67E7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BA3ED0BA2C79139C00DC67E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA3ED0BB2C79139C00DC67E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		BA3ED0A32C79101000DC67E7 /* Debug */ = {
+		BA98A0FD2C94D3C5006BCF6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -447,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		BA3ED0A42C79101000DC67E7 /* Release */ = {
+		BA98A0FE2C94D3C5006BCF6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -501,7 +261,7 @@
 			};
 			name = Release;
 		};
-		BA3ED0A62C79101000DC67E7 /* Debug */ = {
+		BA98A1002C94D3C5006BCF6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -509,22 +269,21 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Gradi/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = GradiView;
+				INFOPLIST_KEY_NSPrincipalClass = gradiView;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.Gradi;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.gradi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Gradi/Gradi-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "gradi/gradi-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
-		BA3ED0A72C79101000DC67E7 /* Release */ = {
+		BA98A1012C94D3C5006BCF6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -532,198 +291,41 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Gradi/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = GradiView;
+				INFOPLIST_KEY_NSPrincipalClass = gradiView;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.Gradi;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.gradi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Gradi/Gradi-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "gradi/gradi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
-			};
-			name = Release;
-		};
-		BA3ED0D52C79139D00DC67E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ScreensaverHostApp/ScreensaverHostApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScreensaverHostApp/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.ScreensaverHostApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		BA3ED0D62C79139D00DC67E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ScreensaverHostApp/ScreensaverHostApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScreensaverHostApp/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.ScreensaverHostApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		BA3ED0D82C79139D00DC67E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.ScreensaverHostAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreensaverHostApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreensaverHostApp";
-			};
-			name = Debug;
-		};
-		BA3ED0D92C79139D00DC67E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.ScreensaverHostAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreensaverHostApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreensaverHostApp";
-			};
-			name = Release;
-		};
-		BA3ED0DB2C79139D00DC67E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.ScreensaverHostAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ScreensaverHostApp;
-			};
-			name = Debug;
-		};
-		BA3ED0DC2C79139D00DC67E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HenryChen.ScreensaverHostAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ScreensaverHostApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA3ED0962C79101000DC67E7 /* Build configuration list for PBXProject "Gradi" */ = {
+		BA98A0F02C94D3C5006BCF6F /* Build configuration list for PBXProject "gradi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA3ED0A32C79101000DC67E7 /* Debug */,
-				BA3ED0A42C79101000DC67E7 /* Release */,
+				BA98A0FD2C94D3C5006BCF6F /* Debug */,
+				BA98A0FE2C94D3C5006BCF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA3ED0A52C79101000DC67E7 /* Build configuration list for PBXNativeTarget "Gradi" */ = {
+		BA98A0FF2C94D3C5006BCF6F /* Build configuration list for PBXNativeTarget "gradi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA3ED0A62C79101000DC67E7 /* Debug */,
-				BA3ED0A72C79101000DC67E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA3ED0D42C79139D00DC67E7 /* Build configuration list for PBXNativeTarget "ScreensaverHostApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA3ED0D52C79139D00DC67E7 /* Debug */,
-				BA3ED0D62C79139D00DC67E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA3ED0D72C79139D00DC67E7 /* Build configuration list for PBXNativeTarget "ScreensaverHostAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA3ED0D82C79139D00DC67E7 /* Debug */,
-				BA3ED0D92C79139D00DC67E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA3ED0DA2C79139D00DC67E7 /* Build configuration list for PBXNativeTarget "ScreensaverHostAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA3ED0DB2C79139D00DC67E7 /* Debug */,
-				BA3ED0DC2C79139D00DC67E7 /* Release */,
+				BA98A1002C94D3C5006BCF6F /* Debug */,
+				BA98A1012C94D3C5006BCF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BA3ED0932C79101000DC67E7 /* Project object */;
+	rootObject = BA98A0ED2C94D3C5006BCF6F /* Project object */;
 }
