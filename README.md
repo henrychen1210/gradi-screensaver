@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/13820a93-c644-4c1b-a1df-2d3ac4ab9497
 
 
 
-[Download Gradi Here](/app/gradi.saver) 
+[Download Gradi Screensaver](https://github.com/henrychen1210/gradi-screensaver/raw/main/app/gradi.saver.zip)
 
 
 
