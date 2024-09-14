@@ -1,6 +1,6 @@
 ### A screensaver for macOS (v14.6.1 or later)
 
-Idea from ([https://gradiyent.netlify.app/])
+Idea from (https://gradiyent.netlify.app/)
 
 [Download Gradi Screensaver](https://github.com/henrychen1210/gradi-screensaver/raw/main/app/gradi.saver.zip)
 
